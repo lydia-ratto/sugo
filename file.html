@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Global Font Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Acqua Pomodoro Timer</title>
+</head>
+<body>
+
+    <div class="logo">
+        <div class="name-title">Sugo</div>
+    </div>
+
+    <div class="container">
+
+        <div class="a-p-columns">
+
+            <div class="left-box" >
+                <div class="acqua-box box">
+                    <div class="heading">Acqua</div>
+                    <div class="glass-box">
+                        <img src="glass.png" class="glass" alt="water-glass">    
+                    </div>
+                </div>
+
+                <div class="break-box box hidden">
+                    <div class="heading">Break</div>
+                    <div class="break-timer-box">
+                        <div class="break-timer">5:00</div>
+                    </div>
+                    <div class="break-btn">Pause</div>
+                </div> 
+
+            </div>
+
+
+            <div class="progress">
+                <div id="progress-bar"></div>
+            </div>
+
+            <div class="right-box">
+                <div class="pomodoro-inactive inactive-box">
+                    <div class="heading">Pomodoro</div>
+                    <img src="tomato.png" class="pomodoro" alt="tomato-icon">
+                </div>
+
+                <div class="pomodoro-box box hidden">
+                    <div class="heading">Pomodoro</div>
+                    <div class="timer-box">
+                        <div class="timer">25:00</div>
+                    </div>
+                    <div class="timer-btns">
+                        <div class="timer-btn fill">Start</div>
+                        <img class="reset-btn" src="rotate-left-solid.png" alt="reset-button">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+         </div>
+
+<!-- Scripts -->
+<script src="project-pomodoro.js"></script>
+
+</body>
+</html>
